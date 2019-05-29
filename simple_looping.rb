@@ -34,10 +34,10 @@ end
 def until_iterator(number_of_times)
   # code your solution here using the "until" keyword
   # hint: use a counter to tell the until loop when to stop!
-number_of_times = 1
+number_of_times = 0
 until number_of_times == 7
 puts "Welcome to Flatiron School's Web Development Course!"
-number_of_times =+ 1
+number_of_times += 1
 end
 end
 
